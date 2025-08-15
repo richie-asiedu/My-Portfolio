@@ -1,0 +1,193 @@
+.abt-container {
+    max-width: 1200px;
+    background:rgba(255,255,255,0.5);
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+    min-height: 400px;
+}
+
+.abt-content {
+    flex: 1;
+    z-index: 2;
+}
+
+.abt-desc {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    border: none;
+    border-radius: 4px;
+    padding: 1rem 1.2rem;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+}
+.abt-desc h1{
+    font-size: 32px;
+    font-weight: 600;
+    color: #333;
+    border: none;
+    text-align: center;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+}
+
+.logo-carousel {
+    width: 120px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    background: linear-gradient(180deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 50%, rgba(255,255,255,0.1) 100%);
+    border-radius: 8px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.carousel-track {
+    display: flex;
+    flex-direction: column;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.left-carousel .carousel-track {
+    animation-name: scrollDown;
+}
+
+.right-carousel .carousel-track {
+    animation-name: scrollUp;
+}
+
+.logo-item {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255,255,255,0.5);
+    margin: 4px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #333;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    padding: 0 8px;
+}
+
+.logo-item:hover {
+    background: rgba(255, 255, 255, 1);
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+@keyframes scrollDown {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-50%);
+    }
+}
+
+@keyframes scrollUp {
+    0% {
+        transform: translateY(-50%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .abt-container {
+        flex-direction: column;
+        gap: 1rem;
+        min-height: unset;
+        align-items: stretch;
+    }
+
+    .abt-content {
+        order: 2;
+        width: 100%;
+        text-align: center;
+    }
+
+    .logo-carousel {
+        width: 100%;
+        height: 80px;
+        min-height: 70px;
+        max-height: 80px;
+        margin: 0 auto;
+        border-radius: 8px;
+        order: unset;
+    }
+
+    .left-carousel {
+        order: 1;
+        margin-bottom: 0.5rem;
+    }
+    .right-carousel {
+        order: 3;
+        margin-top: 0.5rem;
+    }
+
+    .carousel-track {
+        flex-direction: row;
+        animation-duration: 18s;
+        height: 100%;
+        width: max-content;
+    }
+
+    .logo-item {
+        width: 60px;
+        height: 60px;
+        margin: 0 8px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo-item img {
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+    }
+
+    .left-carousel .carousel-track {
+        animation-name: scrollRight;
+    }
+    .right-carousel .carousel-track {
+        animation-name: scrollLeft;
+    }
+}
+
+@keyframes scrollRight {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes scrollLeft {
+    0% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+.logo-item img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}

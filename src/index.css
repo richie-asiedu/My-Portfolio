@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Manufacturing+Consent&family=Permanent+Marker&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poetsen+One&display=swap');
+@import "tailwindcss";
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family:  "Permanent Marker" cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body {
+  scroll-behavior: smooth;
+  background: rgb(233, 217, 217);
+}
+
+
+.container{
+  width: 80%;
+  margin: auto;
+}
