@@ -30,7 +30,7 @@ const Portfolio = () => {
       tech: ["JavaScript", "OpenWeather API", "Tailwind CSS"]
     },
     {
-      id: 5,
+      id: 4,
       title: "Car Rentals Web App",
       description: "At Evans Rentals, we make traveling hassle-free with our wide range of reliable, affordable, and top-quality rental cars. Whether you're planning a weekend getaway, a business trip, or an adventurous road trip, we have the perfect vehicle to suit your needs. Our user-friendly platform allows you to easily browse, compare, and book cars online, ensuring a seamless rental experience from start to finish.",
       image: "https://www.figma.com/community/resource/ca22310e-769e-4216-8ff3-5a511c10560c/thumbnail",
@@ -38,13 +38,14 @@ const Portfolio = () => {
       tech: ["React.js", "Tailwind CSS", "Node.js",]
     },
     {
-      id: 6,
+      id: 5,
       title: "Portfolio Website",
       description: "A modern, responsive portfolio website showcasing projects, skills, and professional experience with smooth animations.",
       image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80",
       github: "https://github.com/yourusername/portfolio-website",
+      live: "https://my-portfolio-h81x.vercel.app/",
       tech: ["React", "Framer Motion", "Styled Components", "Vite"]
-    }
+    },
   ]
 
   return (
@@ -52,7 +53,7 @@ const Portfolio = () => {
       <div className="portfolio-container">
         <div className="portfolio-header">
           <p className="portfolio-subtitle">
-            Explore My Recents Projects And Creative Work
+            Explore My Recent Projects And Creative Work
           </p>
         </div>
         
