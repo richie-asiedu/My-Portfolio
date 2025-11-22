@@ -12,7 +12,7 @@ const Hero = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
     link.href = "/assets/My_resume.pdf";
-    link.download = "Richmond's-CV.pdf";
+    link.download = "My_resume.pdf";
     link.click();
   };
   return (
