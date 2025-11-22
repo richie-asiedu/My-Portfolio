@@ -1,8 +1,8 @@
-import  { useRef } from 'react';
+import { useRef } from 'react';
 import { motion, useInView, useScroll, useTransform } from 'framer-motion';
-import { 
-  Database, 
-  Zap,  
+import {
+  Database,
+  Zap,
   Monitor,
   TrendingUp,
   Users,
@@ -31,19 +31,19 @@ const Skills = () => {
         { name: "TypeScript", level: 85, color: "#3178C6" },
         { name: "HTML/CSS", level: 95, color: "#E34F26" },
         { name: "Tailwind CSS", level: 80, color: "#06B6D4" },
-        { name: "Next.js", level: 80, color: "#000000" }
+        { name: "Next.js", level: 95, color: "#000000" }
       ]
     },
     {
       title: "Backend Development",
       icon: <Database className="w-8 h-8" />,
       skills: [
-        { name: "Node.js", level: 88, color: "#339933" },
+        { name: "Node.js", level: 78, color: "#339933" },
         { name: "Python", level: 15, color: "#3776AB" },
-        { name: "Express.js", level: 12, color: "#000000" },
-        { name: "MongoDB", level: 12, color: "#47A248" },
-        { name: "PostgreSQL", level: 10, color: "#336791" },
-        { name: "GraphQL", level: 10, color: "#E10098" }
+        { name: "Express.js", level: 45, color: "#000000" },
+        { name: "MongoDB", level: 75, color: "#47A248" },
+        { name: "PostgreSQL", level: 70, color: "#336791" },
+        { name: "GraphQL", level: 70, color: "#E10098" }
       ]
     },
     {
@@ -71,7 +71,21 @@ const Skills = () => {
       company: "Self-Learning",
       description: "I'm currently in the process of learning Backend development",
       achievements: ["Learning Node.js and Express.js", "Studying database design and management", "Exploring API development and RESTful services"]
-    }
+    },
+    {
+      year: "2025 - Present",
+      title: "Full Stack Developer",
+      company: "Self-Learning",
+      description: "I am currently developing my skills as a Full Stack Developer, building both frontend and backend systems.",
+      achievements: [
+        "Learning modern frontend frameworks like React",
+        "Building backend services with Node.js and Express.js",
+        "Studying database design and management",
+        "Creating and consuming RESTful APIs",
+        "Exploring full-stack project architecture and deployment"
+      ]
+    },
+
   ];
 
   const containerVariants = {
@@ -124,7 +138,7 @@ const Skills = () => {
 
   return (
     <div ref={containerRef} className="skills-container" id="skills">
-      <motion.div 
+      <motion.div
         className="skills-hero"
         style={{ y, opacity }}
         initial={{ opacity: 0, y: 100 }}
@@ -133,7 +147,7 @@ const Skills = () => {
       >
       </motion.div>
 
-      <motion.div 
+      <motion.div
         className="skills-grid"
         variants={containerVariants}
         initial="hidden"
@@ -144,7 +158,6 @@ const Skills = () => {
             key={category.title}
             className="skill-category"
             variants={cardVariants}
-            whileHover="hover"
           >
             <div className="category-header">
               <div className="category-icon">
@@ -179,7 +192,7 @@ const Skills = () => {
         ))}
       </motion.div>
 
-      <motion.div 
+      <motion.div
         className="experience-section"
         initial={{ opacity: 0, y: 100 }}
         animate={isInView ? { opacity: 1, y: 0 } : {}}
@@ -220,14 +233,14 @@ const Skills = () => {
         </div>
       </motion.div>
 
-      <motion.div 
+      <motion.div
         className="stats-section"
         initial={{ opacity: 0, scale: 0.8 }}
         animate={isInView ? { opacity: 1, scale: 1 } : {}}
         transition={{ duration: 0.8, delay: 1.2 }}
       >
         <div className="stats-grid">
-          <motion.div 
+          <motion.div
             className="stat-card"
             whileHover={{ scale: 1.1, rotate: 5 }}
             transition={{ duration: 0.3 }}
@@ -238,8 +251,8 @@ const Skills = () => {
               <p className="stat-label">Frontend Projects Completed</p>
             </div>
           </motion.div>
-          
-          <motion.div 
+
+          <motion.div
             className="stat-card"
             whileHover={{ scale: 1.1, rotate: -5 }}
             transition={{ duration: 0.3 }}
@@ -250,15 +263,15 @@ const Skills = () => {
               <p className="stat-label">Happy Clients</p>
             </div>
           </motion.div>
-          
-          <motion.div 
+
+          <motion.div
             className="stat-card"
             whileHover={{ scale: 1.1, rotate: 5 }}
             transition={{ duration: 0.3 }}
           >
             <Target className="stat-icon" />
             <div className="stat-content">
-              <h3 className="stat-number">2+</h3>
+              <h3 className="stat-number">3+</h3>
               <p className="stat-label">Years Experience</p>
             </div>
           </motion.div>

@@ -1,7 +1,7 @@
 .skills-container {
   min-height: 100vh;
   padding: 1rem 2rem;
-  background: rgba(255,255,255,0.5);
+  background: rgba(204, 203, 194, 0.897);
   position: relative;
   overflow: hidden;
 }
@@ -166,7 +166,7 @@
   top: 0;
   bottom: 0;
   width: 4px;
-  background: linear-gradient(180deg, #667eea 40%, greenyellow 60%);
+  background: linear-gradient(180deg, #00020a 40%, greenyellow 60%);
   transform: translateX(-50%);
   border-radius: 2px;
 }
@@ -207,7 +207,7 @@
   top: 50%;
   width: 20px;
   height: 20px;
-  background: linear-gradient(135deg, rgba(138, 216, 21, 0.856) 60%, #667eea 40%);
+  background: linear-gradient(135deg, rgba(138, 216, 21, 0.856) 60%, #000107 40%);
   border-radius: 50%;
   transform: translateY(-50%);
   box-shadow: 0 0 20px rgba(102, 126, 234, 0.5);

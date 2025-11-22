@@ -1,10 +1,20 @@
 import "./Portfolio.css"
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
+import fooddelImage from "../../assets/fooddel.png"
+
 
 const Portfolio = () => {
   const projects = [
     {
       id: 1,
+      title: "FoodDel Restaurant",
+      description: "Welcome to FoodDel Restaurant, your go-to destination for delicious, freshly prepared meals. Whether you're craving local favorites, international dishes, quick bites, or gourmet options, we’ve got something for every taste. With an easy ordering experience and a commitment to quality, we bring you flavorful dishes, fast service, and the comfort of enjoying great food wherever you are.",
+      image: fooddelImage,
+      live: "https://food-del-pi-two.vercel.app/",
+      tech: ["Next.js", "JavaScript", "Tailwind CSS", "Node.js", "MongoDB", "Clerk", "Inngest"]
+    },
+    {
+      id: 2,
       title: "E-Commerce Platform",
       description: "Welcome to SHOP.CO, the ultimate destination for all your shopping needs. Whether you're looking for the latest tech gadgets, stylish fashion, home essentials, or unique gifts, we’ve got it all – and more. With a user-friendly shopping experience and a commitment to quality, we bring you a seamless way to shop, compare, and purchase from the comfort of your home.",
       image: "https://s3-alpha.figma.com/hub/file/5999957204/dd434a82-8a1b-45b3-a5e0-84057a10ba17-cover.png",
@@ -13,24 +23,23 @@ const Portfolio = () => {
       tech: ["React", "Node.js", "TypeScript"]
     },
     {
-      id: 2,
-      title: "E-commerce Platform 2",
+      id: 3,
+      title: "QuickCart E-commerce Platform 2",
       description: "Welcome to QuickCart, the ultimate destination for all your shopping needs. Whether you're looking for the latest tech gadgets, stylish fashion, home essentials, or unique gifts, we’ve got it all – and more. With a user-friendly shopping experience and a commitment to quality, we bring you a seamless way to shop, compare, and purchase from the comfort of your home.",
       image: "https://mir-s3-cdn-cf.behance.net/projects/404/7926e5220268597.Y3JvcCwxMzY2LDEwNjgsMCww.png",
-      github: "https://github.com/yourusername/ecommerce-platform-2",
-      live: "https://e-commerce-3zs1.vercel.app/",
-      tech: ["Next.js", "JavaScript", "Tailwind CSS"]
-    },
-    {
-      id: 3,
-      title: "Weather Web App",
-      description: "Welcome to The Weather App, your go-to source for accurate, real-time weather updates. Whether you're planning your day, preparing for an outdoor adventure, or just want to know when to grab your umbrella, we’ve got you covered with hyper-local forecasts, detailed reports, and easy-to-read weather insights.",
-      image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-      github: "https://richie-asiedu.github.io/Weather-App/",
-      tech: ["JavaScript", "OpenWeather API", "Tailwind CSS"]
+      live: "https://quick-cart-lime-two.vercel.app/",
+      tech: ["Next.js", "JavaScript", "Tailwind CSS", "Node.js", "MongoDB", "Clerk", "Inngest"]
     },
     {
       id: 4,
+      title: "YC_Directory",
+      description: "The Y Combinator (YC) startup directory is a useful resource for finding startup ideas by reviewing how successful companies concisely describe their core value proposition. The descriptions are typically short, specific statements of the problem the company is solving, who they are helping, and how their solution makes life better.",
+      image: "https://shaheermansoor.com/static/images/projects/yc-directory-banner.png",
+      live: "https://ycdirectory-gamma.vercel.app/",
+      tech: ["Next.js", "Auth.js", "TypeScript", "Sanity", "Shadcn/ui", "Tailwind CSS"]
+    },
+    {
+      id: 5,
       title: "Car Rentals Web App",
       description: "At Evans Rentals, we make traveling hassle-free with our wide range of reliable, affordable, and top-quality rental cars. Whether you're planning a weekend getaway, a business trip, or an adventurous road trip, we have the perfect vehicle to suit your needs. Our user-friendly platform allows you to easily browse, compare, and book cars online, ensuring a seamless rental experience from start to finish.",
       image: "https://www.figma.com/community/resource/ca22310e-769e-4216-8ff3-5a511c10560c/thumbnail",
@@ -38,7 +47,7 @@ const Portfolio = () => {
       tech: ["React.js", "Tailwind CSS", "Node.js",]
     },
     {
-      id: 5,
+      id: 6,
       title: "Portfolio Website",
       description: "A modern, responsive portfolio website showcasing projects, skills, and professional experience with smooth animations.",
       image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80",

@@ -1,6 +1,6 @@
 .abt-container {
     max-width: 1200px;
-    background:rgba(255,255,255,0.5);
+    background: rgba(5, 1, 1, 0.863);
     display: flex;
     align-items: center;
     gap: 2rem;
@@ -16,7 +16,7 @@
 .abt-desc {
     font-size: 16px;
     font-weight: 500;
-    color: #333;
+    color: #fff;
     border: none;
     border-radius: 4px;
     padding: 1rem 1.2rem;
@@ -26,7 +26,7 @@
 .abt-desc h1{
     font-size: 32px;
     font-weight: 600;
-    color: #333;
+    color: #fff;
     border: none;
     text-align: center;
     border-radius: 4px;
@@ -66,7 +66,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(255,255,255,0.5);
+    background: linear-gradient(-90deg, #83af2b 30%, #2c5364 80%);
     margin: 4px;
     border-radius: 4px;
     font-size: 12px;
@@ -79,7 +79,7 @@
 }
 
 .logo-item:hover {
-    background: rgba(255, 255, 255, 1);
+    background: rgb(241, 240, 240);
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }

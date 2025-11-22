@@ -9,6 +9,12 @@ const Hero = () => {
       target.scrollIntoView({ behavior: 'smooth' });
     }
   };
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/assets/My_resume.pdf";
+    link.download = "Richmond's-CV.pdf";
+    link.click();
+  };
   return (
     <section className="hero" id="home">
       <div className="hero__content">
@@ -18,11 +24,14 @@ const Hero = () => {
           <span className="hero__title-animated">Frontend Developer</span>
         </h2>
         <p className="hero__desc">
-          I craft beautiful, interactive, and high-performance web experiences.<br/>
+          I craft beautiful, interactive, and high-performance web experiences.<br />
           Passionate about modern UI, animations, and seamless user journeys.
         </p>
         <div className="hero__actions">
           <a href="#projects" className="hero__cta" onClick={handleSmoothScroll}>View My Works</a>
+          <button className="download-btn" onClick={handleDownload}>
+            Download CV
+          </button>
         </div>
       </div>
       <div className="hero__image-wrapper">
