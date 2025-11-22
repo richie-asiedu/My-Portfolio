@@ -10,7 +10,7 @@ const Portfolio = () => {
       title: "FoodDel Restaurant",
       description: "Welcome to FoodDel Restaurant, your go-to destination for delicious, freshly prepared meals. Whether you're craving local favorites, international dishes, quick bites, or gourmet options, we’ve got something for every taste. With an easy ordering experience and a commitment to quality, we bring you flavorful dishes, fast service, and the comfort of enjoying great food wherever you are.",
       image: fooddelImage,
-      live: "https://food-del-pi-two.vercel.app/",
+      live: "https://food-del-mu-two.vercel.app/",
       tech: ["Next.js", "JavaScript", "Tailwind CSS", "Node.js", "MongoDB", "Clerk", "Inngest"]
     },
     {
@@ -18,7 +18,6 @@ const Portfolio = () => {
       title: "E-Commerce Platform",
       description: "Welcome to SHOP.CO, the ultimate destination for all your shopping needs. Whether you're looking for the latest tech gadgets, stylish fashion, home essentials, or unique gifts, we’ve got it all – and more. With a user-friendly shopping experience and a commitment to quality, we bring you a seamless way to shop, compare, and purchase from the comfort of your home.",
       image: "https://s3-alpha.figma.com/hub/file/5999957204/dd434a82-8a1b-45b3-a5e0-84057a10ba17-cover.png",
-      github: "https://github.com/yourusername/ecommerce-platform",
       live: "https://e-commerce-six-ochre-98.vercel.app/",
       tech: ["React", "Node.js", "TypeScript"]
     },
@@ -27,7 +26,7 @@ const Portfolio = () => {
       title: "QuickCart E-commerce Platform 2",
       description: "Welcome to QuickCart, the ultimate destination for all your shopping needs. Whether you're looking for the latest tech gadgets, stylish fashion, home essentials, or unique gifts, we’ve got it all – and more. With a user-friendly shopping experience and a commitment to quality, we bring you a seamless way to shop, compare, and purchase from the comfort of your home.",
       image: "https://mir-s3-cdn-cf.behance.net/projects/404/7926e5220268597.Y3JvcCwxMzY2LDEwNjgsMCww.png",
-      live: "https://quick-cart-lime-two.vercel.app/",
+      live: "https://quick-cart-silk-xi.vercel.app/",
       tech: ["Next.js", "JavaScript", "Tailwind CSS", "Node.js", "MongoDB", "Clerk", "Inngest"]
     },
     {
