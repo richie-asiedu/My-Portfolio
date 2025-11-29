@@ -1,5 +1,6 @@
 import './Hero.css'
 import profile from '../../assets/profile.png'
+import resume from '../../assets/My_resume.pdf'
 
 const Hero = () => {
   const handleSmoothScroll = (e) => {
@@ -9,11 +10,15 @@ const Hero = () => {
       target.scrollIntoView({ behavior: 'smooth' });
     }
   };
-  const handleDownload = () => {
+  const handleDownload = async () => {
+    const response = await fetch(resume);
+    const blob = await response.blob();
+    const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
-    link.href = "/assets/My_resume.pdf";
+    link.href = url;
     link.download = "My_resume.pdf";
     link.click();
+    URL.revokeObjectURL(url);
   };
   return (
     <section className="hero" id="home">

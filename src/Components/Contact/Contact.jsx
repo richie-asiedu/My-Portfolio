@@ -59,7 +59,7 @@ const Contact = () => {
 
   const socialLinks = [
     { name: 'LinkedIn', icon: 'fab fa-linkedin', url: 'https://www.linkedin.com/in/richmondasiedu' },
-    { name: 'Instagram', icon: 'fab fa-instagram', url: 'https://instagram.com' },
+    { name: 'Instagram', icon: 'fab fa-instagram', url: 'https://instagram.com/loner7194' },
     { name: 'tiktok', icon: 'fab fa-tiktok', url: 'https://www.tiktok.com/@qweku.skippa?_t=ZM-8wnjARhTsCG&_r=1' },
     { name: 'GitHub', icon: 'fab fa-github', url: 'https://github.com/richie-asiedu' }
   ]
