@@ -66,24 +66,28 @@ const Skills = () => {
       achievements: ["Reduced load times by 60%", "Reduced the times spent on developers by 73% by creating maintainable reusable components", "Worked with UX/UI design teams to improve existing web applications and increase conversion rates by 15%"]
     },
     {
-      year: "2025 - Present",
+      year: "2024 - Present",
       title: "Backend Developer",
-      company: "Self-Learning",
-      description: "I'm currently in the process of learning Backend development",
-      achievements: ["Learning Node.js and Express.js", "Studying database design and management", "Exploring API development and RESTful services"]
+      description: "I am a well-established Backend Developer with solid experience in building scalable, secure, and high-performance server-side applications.",
+      achievements: [
+        "Designed and implemented RESTful APIs using Node.js and Express.js",
+        "Developed and managed efficient database schemas and optimized queries",
+        "Built and maintained backend services with a focus on performance, security, and reliability"
+      ]
+
     },
     {
       year: "2025 - Present",
       title: "Full Stack Developer",
-      company: "Self-Learning",
-      description: "I am currently developing my skills as a Full Stack Developer, building both frontend and backend systems.",
+      description: "I am a well-established Full-Stack Developer with experience building end-to-end web applications, delivering robust frontend interfaces and scalable backend systems.",
       achievements: [
-        "Learning modern frontend frameworks like React",
-        "Building backend services with Node.js and Express.js",
-        "Studying database design and management",
-        "Creating and consuming RESTful APIs",
-        "Exploring full-stack project architecture and deployment"
+        "Developed responsive and interactive user interfaces using modern frontend frameworks such as React",
+        "Built and maintained backend services and APIs using Node.js and Express.js",
+        "Designed and managed databases with a focus on performance and data integrity",
+        "Implemented and consumed RESTful APIs to support full-stack application workflows",
+        "Handled full-stack application architecture, deployment, and ongoing optimization"
       ]
+
     },
 
   ];

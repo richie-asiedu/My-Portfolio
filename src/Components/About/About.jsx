@@ -30,7 +30,7 @@ const About = () => {
 
       <div className='abt-content'>
         <div className='abt-desc'>
-          <h1>Web Developer</h1>
+          <h1>FullStack Engineer</h1>
           <p>
               I'm a passionate creative developer who believes in pushing
               the boundaries of what possible on the web. With a keen
