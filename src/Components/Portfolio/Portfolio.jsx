@@ -7,43 +7,43 @@ const Portfolio = () => {
   const projects = [
     {
       id: 1,
-      title: "FoodDel Restaurant",
-      description: "Welcome to FoodDel Restaurant, your go-to destination for delicious, freshly prepared meals. Whether you're craving local favorites, international dishes, quick bites, or gourmet options, we’ve got something for every taste. With an easy ordering experience and a commitment to quality, we bring you flavorful dishes, fast service, and the comfort of enjoying great food wherever you are.",
-      image: fooddelImage,
-      live: "https://food-del-mu-two.vercel.app/",
-      tech: ["Next.js", "JavaScript", "Tailwind CSS", "Node.js", "MongoDB", "Clerk", "Inngest"]
+      title: "Church Website",
+      description: "Welcome to C.A.C.I, a place of worship, faith, and fellowship. Our website provides members and visitors with easy access to service times, upcoming events, sermons, ministries, and community outreach programs. Whether you're looking to grow spiritually, connect with others, or watch sermons online, our platform offers a welcoming and user-friendly experience for everyone.",
+      image: "https://www.newhollandwood.com/wp-content/uploads/2019/10/1-Monastery-of-the-Holy-Cross-Chicago.jpg",
+      live: "https://caci-project.vercel.app",
+      tech: ["Next.js", "TypeScript", "Tailwind CSS", "Node.js", "MongoDB", "PayStack"]
     },
     {
       id: 2,
-      title: "E-Commerce Platform",
-      description: "Welcome to SHOP.CO, the ultimate destination for all your shopping needs. Whether you're looking for the latest tech gadgets, stylish fashion, home essentials, or unique gifts, we’ve got it all – and more. With a user-friendly shopping experience and a commitment to quality, we bring you a seamless way to shop, compare, and purchase from the comfort of your home.",
-      image: "https://s3-alpha.figma.com/hub/file/5999957204/dd434a82-8a1b-45b3-a5e0-84057a10ba17-cover.png",
-      live: "https://e-commerce-six-ochre-98.vercel.app/",
-      tech: ["React", "Node.js", "TypeScript"]
+      title: "QuickCart E-commerce Platform",
+      description: "Welcome to QuickCart, the ultimate destination for all your shopping needs. Whether you're looking for the latest tech gadgets, stylish fashion, home essentials, or unique gifts, we’ve got it all – and more. With a user-friendly shopping experience and a commitment to quality, we bring you a seamless way to shop, compare, and purchase from the comfort of your home.",
+      image: "https://mir-s3-cdn-cf.behance.net/projects/404/7926e5220268597.Y3JvcCwxMzY2LDEwNjgsMCww.png",
+      live: "https://quick-cart-silk-xi.vercel.app",
+      tech: ["Next.js", "JavaScript", "Tailwind CSS", "Node.js", "MongoDB", "Clerk", "Inngest"]
     },
     {
       id: 3,
-      title: "QuickCart E-commerce Platform 2",
-      description: "Welcome to QuickCart, the ultimate destination for all your shopping needs. Whether you're looking for the latest tech gadgets, stylish fashion, home essentials, or unique gifts, we’ve got it all – and more. With a user-friendly shopping experience and a commitment to quality, we bring you a seamless way to shop, compare, and purchase from the comfort of your home.",
-      image: "https://mir-s3-cdn-cf.behance.net/projects/404/7926e5220268597.Y3JvcCwxMzY2LDEwNjgsMCww.png",
-      live: "https://quick-cart-silk-xi.vercel.app/",
+      title: "FoodDel Restaurant",
+      description: "Welcome to FoodDel Restaurant, your go-to destination for delicious, freshly prepared meals. Whether you're craving local favorites, international dishes, quick bites, or gourmet options, we’ve got something for every taste. With an easy ordering experience and a commitment to quality, we bring you flavorful dishes, fast service, and the comfort of enjoying great food wherever you are.",
+      image: fooddelImage,
+      live: "https://food-del-mu-two.vercel.app",
       tech: ["Next.js", "JavaScript", "Tailwind CSS", "Node.js", "MongoDB", "Clerk", "Inngest"]
     },
     {
       id: 4,
-      title: "YC_Directory",
-      description: "The Y Combinator (YC) startup directory is a useful resource for finding startup ideas by reviewing how successful companies concisely describe their core value proposition. The descriptions are typically short, specific statements of the problem the company is solving, who they are helping, and how their solution makes life better.",
-      image: "https://shaheermansoor.com/static/images/projects/yc-directory-banner.png",
-      live: "https://ycdirectory-gamma.vercel.app/",
-      tech: ["Next.js", "Auth.js", "TypeScript", "Sanity", "Shadcn/ui", "Tailwind CSS"]
+      title: "Black Clothing Store",
+      description: "Welcome to BLACKOUT, your ultimate destination for bold and timeless black fashion. From sleek streetwear and elegant formal pieces to everyday essentials, we specialize in all-black collections that redefine style and confidence. With a seamless shopping experience and a focus on premium quality, BLACKOUT makes it easy to shop your favorite black fits from the comfort of your home.",
+      image: "https://s3-alpha.figma.com/hub/file/5999957204/dd434a82-8a1b-45b3-a5e0-84057a10ba17-cover.png",
+      live: "https://black-clothing-store.vercel.app",
+      tech: ["Next.Js", "Node.js", "TypeScript", "Tailwind CSS", "Node.js", "MongoDB", "Clerk", "Inngest"]
     },
     {
       id: 5,
-      title: "Car Rentals Web App",
-      description: "At Evans Rentals, we make traveling hassle-free with our wide range of reliable, affordable, and top-quality rental cars. Whether you're planning a weekend getaway, a business trip, or an adventurous road trip, we have the perfect vehicle to suit your needs. Our user-friendly platform allows you to easily browse, compare, and book cars online, ensuring a seamless rental experience from start to finish.",
-      image: "https://www.figma.com/community/resource/ca22310e-769e-4216-8ff3-5a511c10560c/thumbnail",
-      github: "https://richie-asiedu.github.io/Car-Rentals-Web-App/",
-      tech: ["React.js", "Tailwind CSS", "Node.js",]
+      title: "YC_Directory",
+      description: "The Y Combinator (YC) startup directory is a useful resource for finding startup ideas by reviewing how successful companies concisely describe their core value proposition. The descriptions are typically short, specific statements of the problem the company is solving, who they are helping, and how their solution makes life better.",
+      image: "https://shaheermansoor.com/static/images/projects/yc-directory-banner.png",
+      live: "https://ycdirectory-gamma.vercel.app",
+      tech: ["Next.js", "Auth.js", "TypeScript", "Sanity", "Shadcn/ui", "Tailwind CSS"]
     },
     {
       id: 6,
@@ -51,7 +51,7 @@ const Portfolio = () => {
       description: "A modern, responsive portfolio website showcasing projects, skills, and professional experience with smooth animations.",
       image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80",
       github: "https://github.com/yourusername/portfolio-website",
-      live: "https://my-portfolio-h81x.vercel.app/",
+      live: "https://my-portfolio-h81x.vercel.app",
       tech: ["React", "Framer Motion", "Styled Components", "Vite"]
     },
   ]
@@ -64,29 +64,29 @@ const Portfolio = () => {
             Explore My Recent Projects And Creative Work
           </p>
         </div>
-        
+
         <div className="projects-grid">
           {projects.map((project) => (
             <div key={project.id} className="project-card">
               <div className="project-image-container">
-                <img 
-                  src={project.image} 
+                <img
+                  src={project.image}
                   alt={project.title}
                   className="project-image"
                 />
                 <div className="project-overlay">
                   <div className="project-links">
-                    <a 
-                      href={project.github} 
-                      target="_blank" 
+                    <a
+                      href={project.github}
+                      target="_blank"
                       rel="noopener noreferrer"
                       className="project-link github-link"
                     >
                       <FaGithub />
                     </a>
-                    <a 
-                      href={project.live} 
-                      target="_blank" 
+                    <a
+                      href={project.live}
+                      target="_blank"
                       rel="noopener noreferrer"
                       className="project-link live-link"
                     >
@@ -95,7 +95,7 @@ const Portfolio = () => {
                   </div>
                 </div>
               </div>
-              
+
               <div className="project-content">
                 <h3 className="project-title">{project.title}</h3>
                 <p className="project-description">{project.description}</p>

@@ -84,7 +84,7 @@ const Contact = () => {
               </div>
               <div className="info-content">
                 <h3>Location</h3>
-                <p>Labadi, Accra</p>
+                <p>Ghana, Accra</p>
               </div>
             </div>
 
@@ -104,7 +104,7 @@ const Contact = () => {
               </div>
               <div className="info-content">
                 <h3>Phone</h3>
-                <p>+233 532700248</p>
+                <p>+233 53 270 0248</p>
               </div>
             </div>
 

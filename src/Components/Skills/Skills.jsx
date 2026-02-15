@@ -60,7 +60,7 @@ const Skills = () => {
 
   const experienceData = [
     {
-      year: "2023 - Present",
+      year: "2022 - Present",
       title: "Frontend Developer",
       description: "Leading development of scalable web applications using React, Node.js, and cloud technologies.",
       achievements: ["Reduced load times by 60%", "Reduced the times spent on developers by 73% by creating maintainable reusable components", "Worked with UX/UI design teams to improve existing web applications and increase conversion rates by 15%"]
@@ -252,7 +252,7 @@ const Skills = () => {
             <TrendingUp className="stat-icon" />
             <div className="stat-content">
               <h3 className="stat-number">4+</h3>
-              <p className="stat-label">Frontend Projects Completed</p>
+              <p className="stat-label">Projects Completed</p>
             </div>
           </motion.div>
 
@@ -275,7 +275,7 @@ const Skills = () => {
           >
             <Target className="stat-icon" />
             <div className="stat-content">
-              <h3 className="stat-number">3+</h3>
+              <h3 className="stat-number">4+</h3>
               <p className="stat-label">Years Experience</p>
             </div>
           </motion.div>
