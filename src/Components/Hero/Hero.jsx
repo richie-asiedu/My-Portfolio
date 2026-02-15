@@ -1,6 +1,6 @@
 import './Hero.css'
 import profile from '../../assets/profile.png'
-import resume from '../../assets/Richmond_s_Resume.pdf'
+import resume from '../../assets/Resume.pdf'
 
 const Hero = () => {
   const handleSmoothScroll = (e) => {
@@ -16,7 +16,7 @@ const Hero = () => {
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.href = url;
-    link.download = "Richmond_s_Resume.pdf";
+    link.download = "Resume.pdf";
     link.click();
     URL.revokeObjectURL(url);
   };
